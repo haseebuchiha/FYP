@@ -1,7 +1,5 @@
-guess = 0
-answer = 5
+def increment(number: int, by: int = 1) -> tuple:
+    return (number, number + by)
 
-while answer != guess:
-    guess = int(input("Guess: "))
-else:
-    print("bhai")
+
+print(increment(2))
