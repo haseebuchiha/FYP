@@ -1,7 +1,12 @@
-import math
+x = input("x: ")
+# y = x+1
 
-# Static variable are shown as Upper case but there are no static variables in python
-PI = -3.14
-print(round(PI))
-print(abs(PI))
-print(math.floor(PI))
+
+print(int(x))
+print(float(x))
+print(bool(x))
+# Falsy Statements
+# ""
+# 0
+# []
+# None(Null)
