@@ -1,8 +1,8 @@
-# for x in "Python":
-#     print(x)
+names = ["tohn", "Mary"]
 
-# for x in ['a', 'b', 'c']:
-#     print(x)
-
-print(type(range(5)))
-print([1, 2, 3, 4, 5])
+for name in names:
+    if name.startswith("J"):
+        print("Found")
+        break
+else:
+    print("Not found")
