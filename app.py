@@ -1,10 +1,11 @@
-course = "    Python Programming"
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.strip())
+x = 10
+x = 0b10
+print(bin(x))
 
-print(course.find("pro"))
-print(course.replace("P", "-"))
+x = 0x12c
+print(hex(x))
 
-print("Programming" not in course)
+
+# a + bi
+x = 1+2J
+print(x)
