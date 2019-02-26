@@ -1,5 +1,5 @@
-def increment(number: int, by: int = 1) -> tuple:
-    return (number, number + by)
+def multiply(*list):
+    print(list)
 
 
-print(increment(2))
+multiply(2, 3, 4, 5)
