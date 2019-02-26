@@ -1,9 +1,8 @@
-age = 22
-if age >= 18:
-    message = "Eligible"
-else:
-    message = "Not eligible"
+# for x in "Python":
+#     print(x)
 
-message = "Eligible" if age >= 18 else "Not Eligible"
+# for x in ['a', 'b', 'c']:
+#     print(x)
 
-print(message)
+print(type(range(5)))
+print([1, 2, 3, 4, 5])
