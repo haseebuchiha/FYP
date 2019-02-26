@@ -4,6 +4,6 @@ if age >= 18:
 else:
     message = "Not eligible"
 
-message = "Eligible" age >= 18 else "Not Eligible"
+message = "Eligible" if age >= 18 else "Not Eligible"
 
 print(message)
