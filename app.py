@@ -1,15 +1,10 @@
+name = " "
+
+if not name.strip():
+    print("Name is empty")
+
 age = 22
+if 18 <= age < 65:
+    print("Eligible")
 
-if age >= 18:
-    print("Adult")
-elif age >= 13:
-    print("Teenager")
-else:
-    print("Child")
-
-print("All Done")
-
-if age > 1:
-    pass
-else:
-    pass
+# 18 <= age <65
